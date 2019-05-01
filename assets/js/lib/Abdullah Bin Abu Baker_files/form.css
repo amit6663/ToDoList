@@ -1,0 +1,60 @@
+
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#login {
+background-color:white;
+color:black;
+border-radius:10px 10px 10px 10px;
+margin:-10px -40px;
+padding:15px
+}
+
+#login input[type=text],input[type=password] {
+width:100%;
+font-weight: bold;
+padding:10px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+#login input[type=submit] {
+width:100%;
+font-weight: bold;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+#login input[type=file]  {
+width:100%;
+font-weight: bold;
+background-color:#000000;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+.select-style select{
+
+width:100%;
+font-weight: bold;
+background-color:#000000;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+border-radius:5px;
+margin-bottom:15px
+}
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }
